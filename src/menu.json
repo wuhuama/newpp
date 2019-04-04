@@ -1,0 +1,67 @@
+{
+  "topMenuList": [{
+      "id": 1,
+      "name": "home",
+      "title": "换乘质量检测",
+      "icon": "text"
+    }, {
+      "id": 2,
+      "name": "qyjc",
+      "title": "区域检测",
+      "icon": "text"
+    }, {
+      "id": 3,
+      "title": "数据分析",
+      "icon": "text",
+      "name": "datanalysisIndex",
+      "children": [{
+        "id": 5,
+        "name": "regionalflow",
+        "title": "各区域客流量",
+        "icon": "text"
+      }, {
+        "id": 6,
+        "name": "regionalflowinandout",
+        "title": "各区域进出客流量",
+        "icon": "text"
+      }]
+    },
+    {
+      "id": 4,
+      "title": "系统管理",
+      "name": "systemIndex",
+      "icon": "text",
+      "children": [{
+        "id": 15,
+        "name": "userlist",
+        "title": "用户管理",
+        "icon": "text"
+      }, {
+        "id": 16,
+        "name": "menu",
+        "title": "菜单管理",
+        "icon": "text"
+      }, {
+        "id": 8,
+        "name": "role",
+        "title": "角色管理",
+        "icon": "text"
+      }, {
+        "id": 9,
+        "name": "log",
+        "title": "日志管理",
+        "icon": "tt"
+      }]
+    }
+  ],
+  "project":[{
+      "id": 1,
+      "name":"交通规划 I"
+  },{
+      "id": 2,
+      "name":"交通规划 II"
+  },{
+      "id": 3,
+      "name":"交通规划 III"
+  }]
+}
